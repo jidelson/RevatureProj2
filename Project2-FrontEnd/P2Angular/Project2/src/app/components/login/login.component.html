@@ -1,0 +1,96 @@
+<!-- <div class="p-3 mb-2 bg-light text-dark" id="loginBox">
+    <h1 class="text-monospace text-center">User Login</h1>
+    <form id="formElements" (ngSubmit)="loginNow()">
+        <input id="usernameLogin" class="form-control" type="text" name="username" placeholder="Username"
+            [(ngModel)]="validateUser.username"> <br> <br>
+        <input id="passwordLogin" class="form-control" type="password" name="password" placeholder="password"
+            [(ngModel)]="validateUser.password"> <br>
+        <input class="btn btn-outline-danger" type="submit" value="Login">
+    </form>
+    <div *ngIf="incorrect">
+        <img id="incorrect1" src="../assets/images/incorrect.gif">
+        <img id="incorrect2" src="../assets/images/incorrect.gif">
+        <h1 id="incorrect">Incorrect! Please try again</h1>
+    </div>
+
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col-md-6 offset-md-3 mt-4">
+        <h2>Login</h2>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Username
+                    <span class="required-asterisk">*</span>
+                </label>
+                <input required type="text" class="form-control" id="username"  [(ngModel)]="username" name = "username">   
+            </div>
+
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password
+                    <span class="required-asterisk">*</span>
+                </label>
+                <input required type="password" class="form-control" id="password" [(ngModel)]="password" name = "password">
+            </div>
+            <p>* Required fields</p>
+            <button type="submit" class="btn btn-primary" (click)="loginNow()">Submit</button>
+
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form action="action_page.php" method="post">
+    
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="button" class="btn btn-primary"> Login </button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="btn btn-danger"> Cancel </button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form> -->
